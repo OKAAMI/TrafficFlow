@@ -23,7 +23,8 @@ app.use("/api/measurements", measurementsRouter);
 app.use("/", (req, res) => {
   return res
     .status(200)
-    .send("Hello Traffic Flow -  there is currently no FrontEnd, just an API");
+    //.send("Hello Traffic Flow -  there is currently no FrontEnd, just an API");
+    .sendFile("readme.html", { root: __dirname })
 });
 
 populateDB();

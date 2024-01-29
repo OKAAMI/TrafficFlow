@@ -1,8 +1,13 @@
 const fs = require("fs");
 const { parse } = require("csv-parse");
 
+// Download data from : https://storage.googleapis.com/dft-statistics/road-traffic/downloads/data-gov-uk/dft_traffic_counts_aadf_by_direction.zip
+
+// # Full data set
 //const dataFile = "./data/dft_traffic_counts_aadf_by_direction.csv";
-const dataFile = "data/trafficFlow.csv";
+
+// # Trimmed version for testing - included in repo
+const dataFile = "./data/trafficFlow.csv";
 
 let counter = 0;
 let header = {};
