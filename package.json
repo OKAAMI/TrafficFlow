@@ -1,0 +1,16 @@
+{
+  "name": "cityscience-trafficflow",
+  "version": "1.0.0",
+  "description": "A small Nodejs server and API for UK traffic flow data",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Liv Franzen",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "express": "^4.18.2"
+  }
+}
