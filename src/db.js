@@ -1,8 +1,8 @@
 const fs = require("fs");
 const { parse } = require("csv-parse");
 
-//const dataFile = "./src/data/dft_traffic_counts_aadf_by_direction.csv";
-const dataFile = "./src/data/trafficFlow.csv";
+//const dataFile = "./data/dft_traffic_counts_aadf_by_direction.csv";
+const dataFile = "./data/trafficFlow.csv";
 
 let counter = 0;
 let header = {};
